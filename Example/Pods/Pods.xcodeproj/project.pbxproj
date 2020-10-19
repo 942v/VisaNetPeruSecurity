@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		DD34A74B876BA6180352B1D95F3C7541 /* VisaNetPeruSecurity */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0EEC63532CF3A81F7264E9AC7095A4FE /* Build configuration list for PBXAggregateTarget "VisaNetPeruSecurity" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = VisaNetPeruSecurity;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		80A9031536D0D6C8AAE53958DA2244B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BF1B5DEBAC0DE63CE9D217FBE2342BCA /* Pods-VisaNetPeruSecurity_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5C86701CBD31065C9DFEFCF522FAAF2 /* Pods-VisaNetPeruSecurity_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C31D56330D87F270D87AF1312B67F908 /* Pods-VisaNetPeruSecurity_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E82BD6473DF62BAE91AE469EAAA879 /* Pods-VisaNetPeruSecurity_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4A60FC4D396DF26CCE48EAA37E0BA0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD34A74B876BA6180352B1D95F3C7541;
+			remoteInfo = VisaNetPeruSecurity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10193E074B6411A9F54101397059F763 /* Pods-VisaNetPeruSecurity_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisaNetPeruSecurity_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		16B2A3C4638F560AEDD3B55423CE18D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		19C0DA36C3C1850E00FE4D92B0287099 /* Pods-VisaNetPeruSecurity_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VisaNetPeruSecurity_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C2487E811FB77E163E07CACA5539167 /* Pods-VisaNetPeruSecurity_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisaNetPeruSecurity_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2C55B093BAB19F45D18CF67EF060CAF5 /* Pods-VisaNetPeruSecurity_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VisaNetPeruSecurity_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2E5FE4DCA8405BFEE527AEBC5119327F /* Pods-VisaNetPeruSecurity_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VisaNetPeruSecurity_Tests.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		39C60F7CB5D73ED2253F916F510C0092 /* VisaNetPeruSecurity.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VisaNetPeruSecurity.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		45F5CF9431A334D9B3C9557FCB0A8976 /* TMXProfiling.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TMXProfiling.framework; path = VisaNetPeruSecurity/Frameworks/TMXProfiling.framework; sourceTree = "<group>"; };
+		4FC2DCF9B99108BB16AA2C2B8FE01C1D /* VisaNetPeruSecurity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VisaNetPeruSecurity.release.xcconfig; sourceTree = "<group>"; };
+		7289DA1E4B5E5E0F30A0B1475778E5D2 /* CardinalMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CardinalMobile.framework; path = VisaNetPeruSecurity/Frameworks/CardinalMobile.framework; sourceTree = "<group>"; };
+		736A528972CA425A568E901A4B74B755 /* Pods-VisaNetPeruSecurity_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VisaNetPeruSecurity_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		74B9E762E95390188A824B33B80C891E /* TMXProfilingConnections.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TMXProfilingConnections.framework; path = VisaNetPeruSecurity/Frameworks/TMXProfilingConnections.framework; sourceTree = "<group>"; };
+		93C7E1BDE9938114B2928B60D6C5D184 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1E82BD6473DF62BAE91AE469EAAA879 /* Pods-VisaNetPeruSecurity_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VisaNetPeruSecurity_Tests-dummy.m"; sourceTree = "<group>"; };
+		B5C86701CBD31065C9DFEFCF522FAAF2 /* Pods-VisaNetPeruSecurity_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VisaNetPeruSecurity_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D76D49AC29B136E17EE534A76C16FDC3 /* Pods_VisaNetPeruSecurity_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VisaNetPeruSecurity_Tests.framework; path = "Pods-VisaNetPeruSecurity_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5803B77CADEEC58A000AB576786BDFD /* Pods-VisaNetPeruSecurity_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VisaNetPeruSecurity_Tests-Info.plist"; sourceTree = "<group>"; };
+		FE93F86CD361DAEE5B4E5DE50BEC3A1B /* VisaNetPeruSecurity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VisaNetPeruSecurity.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24176B6E9BC007679AC55D275A78FF2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A9031536D0D6C8AAE53958DA2244B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A9700BAE31C49ECF134E1DB741EAF5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D76D49AC29B136E17EE534A76C16FDC3 /* Pods_VisaNetPeruSecurity_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34A758F35B5A9FFDEA4151AF22D45993 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE93F86CD361DAEE5B4E5DE50BEC3A1B /* VisaNetPeruSecurity.debug.xcconfig */,
+				4FC2DCF9B99108BB16AA2C2B8FE01C1D /* VisaNetPeruSecurity.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VisaNetPeruSecurity";
+			sourceTree = "<group>";
+		};
+		39C358010F074B905B08C921D963D9E9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F57D0C02114BF0886A7CC240C10AB19 /* VisaNetPeruSecurity */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3F094E6D8F74D59C106A8855B5980390 /* Pods-VisaNetPeruSecurity_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2E5FE4DCA8405BFEE527AEBC5119327F /* Pods-VisaNetPeruSecurity_Tests.modulemap */,
+				19C0DA36C3C1850E00FE4D92B0287099 /* Pods-VisaNetPeruSecurity_Tests-acknowledgements.markdown */,
+				736A528972CA425A568E901A4B74B755 /* Pods-VisaNetPeruSecurity_Tests-acknowledgements.plist */,
+				A1E82BD6473DF62BAE91AE469EAAA879 /* Pods-VisaNetPeruSecurity_Tests-dummy.m */,
+				2C55B093BAB19F45D18CF67EF060CAF5 /* Pods-VisaNetPeruSecurity_Tests-frameworks.sh */,
+				F5803B77CADEEC58A000AB576786BDFD /* Pods-VisaNetPeruSecurity_Tests-Info.plist */,
+				B5C86701CBD31065C9DFEFCF522FAAF2 /* Pods-VisaNetPeruSecurity_Tests-umbrella.h */,
+				10193E074B6411A9F54101397059F763 /* Pods-VisaNetPeruSecurity_Tests.debug.xcconfig */,
+				1C2487E811FB77E163E07CACA5539167 /* Pods-VisaNetPeruSecurity_Tests.release.xcconfig */,
+			);
+			name = "Pods-VisaNetPeruSecurity_Tests";
+			path = "Target Support Files/Pods-VisaNetPeruSecurity_Tests";
+			sourceTree = "<group>";
+		};
+		4F57D0C02114BF0886A7CC240C10AB19 /* VisaNetPeruSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				E886BD088C4C5308269E6E5608414BD5 /* Core */,
+				580039AAEFA6A128E97BDF66DEB005D2 /* Pod */,
+				34A758F35B5A9FFDEA4151AF22D45993 /* Support Files */,
+			);
+			name = VisaNetPeruSecurity;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		580039AAEFA6A128E97BDF66DEB005D2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				93C7E1BDE9938114B2928B60D6C5D184 /* LICENSE */,
+				16B2A3C4638F560AEDD3B55423CE18D1 /* README.md */,
+				39C60F7CB5D73ED2253F916F510C0092 /* VisaNetPeruSecurity.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				39C358010F074B905B08C921D963D9E9 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2A9700BAE31C49ECF134E1DB741EAF5F /* Products */,
+				F935EEB57BC83F9A1394E4AAEC37D50C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E68AFC8450D7CA345366FD12CCEAA579 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7289DA1E4B5E5E0F30A0B1475778E5D2 /* CardinalMobile.framework */,
+				45F5CF9431A334D9B3C9557FCB0A8976 /* TMXProfiling.framework */,
+				74B9E762E95390188A824B33B80C891E /* TMXProfilingConnections.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E886BD088C4C5308269E6E5608414BD5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E68AFC8450D7CA345366FD12CCEAA579 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F935EEB57BC83F9A1394E4AAEC37D50C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F094E6D8F74D59C106A8855B5980390 /* Pods-VisaNetPeruSecurity_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CEEBC666005A5AEFDB80BA6A0DB164C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1B5DEBAC0DE63CE9D217FBE2342BCA /* Pods-VisaNetPeruSecurity_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		007DA9CF820BEFF40B1A85627ADC3A4B /* Pods-VisaNetPeruSecurity_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22E49DA0BD1B2AE6E5BAFA41E134098 /* Build configuration list for PBXNativeTarget "Pods-VisaNetPeruSecurity_Tests" */;
+			buildPhases = (
+				CEEBC666005A5AEFDB80BA6A0DB164C9 /* Headers */,
+				3D3164ADDFCCAF8D58C1C8A2EB8E83A6 /* Sources */,
+				24176B6E9BC007679AC55D275A78FF2C /* Frameworks */,
+				1E3A37C5A220C2440B28C52D3BD51B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C827917590EF943CD9594DA3C2C16B2 /* PBXTargetDependency */,
+			);
+			name = "Pods-VisaNetPeruSecurity_Tests";
+			productName = "Pods-VisaNetPeruSecurity_Tests";
+			productReference = D76D49AC29B136E17EE534A76C16FDC3 /* Pods_VisaNetPeruSecurity_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2A9700BAE31C49ECF134E1DB741EAF5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				007DA9CF820BEFF40B1A85627ADC3A4B /* Pods-VisaNetPeruSecurity_Tests */,
+				DD34A74B876BA6180352B1D95F3C7541 /* VisaNetPeruSecurity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E3A37C5A220C2440B28C52D3BD51B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D3164ADDFCCAF8D58C1C8A2EB8E83A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31D56330D87F270D87AF1312B67F908 /* Pods-VisaNetPeruSecurity_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C827917590EF943CD9594DA3C2C16B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VisaNetPeruSecurity;
+			target = DD34A74B876BA6180352B1D95F3C7541 /* VisaNetPeruSecurity */;
+			targetProxy = E4A60FC4D396DF26CCE48EAA37E0BA0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1A1DCC11C8BB9C2EB25BEA298ACB21AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C2487E811FB77E163E07CACA5539167 /* Pods-VisaNetPeruSecurity_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VisaNetPeruSecurity_Tests/Pods-VisaNetPeruSecurity_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VisaNetPeruSecurity_Tests/Pods-VisaNetPeruSecurity_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		737D58A325BAE56BB0ECCBEF3494AAA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE93F86CD361DAEE5B4E5DE50BEC3A1B /* VisaNetPeruSecurity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAA273335B7C8561F415FD82FE7D8F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FC2DCF9B99108BB16AA2C2B8FE01C1D /* VisaNetPeruSecurity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E2E7E4F9BE816C86662D63395D3C9F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10193E074B6411A9F54101397059F763 /* Pods-VisaNetPeruSecurity_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VisaNetPeruSecurity_Tests/Pods-VisaNetPeruSecurity_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VisaNetPeruSecurity_Tests/Pods-VisaNetPeruSecurity_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EEC63532CF3A81F7264E9AC7095A4FE /* Build configuration list for PBXAggregateTarget "VisaNetPeruSecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737D58A325BAE56BB0ECCBEF3494AAA5 /* Debug */,
+				AAA273335B7C8561F415FD82FE7D8F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22E49DA0BD1B2AE6E5BAFA41E134098 /* Build configuration list for PBXNativeTarget "Pods-VisaNetPeruSecurity_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2E7E4F9BE816C86662D63395D3C9F87 /* Debug */,
+				1A1DCC11C8BB9C2EB25BEA298ACB21AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

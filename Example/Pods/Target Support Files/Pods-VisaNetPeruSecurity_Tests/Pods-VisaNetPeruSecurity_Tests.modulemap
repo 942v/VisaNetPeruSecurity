@@ -1,0 +1,6 @@
+framework module Pods_VisaNetPeruSecurity_Tests {
+  umbrella header "Pods-VisaNetPeruSecurity_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

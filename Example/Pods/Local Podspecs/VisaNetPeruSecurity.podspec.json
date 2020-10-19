@@ -1,0 +1,30 @@
+{
+  "name": "VisaNetPeruSecurity",
+  "version": "0.1.0",
+  "summary": "Security frameworks for VisaNetSDKiOS",
+  "description": "Security frameworks for VisaNetSDKiOS: CardinalMobile, TMX*",
+  "homepage": "https://github.com/942v/VisaNetPeruSecurity",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Guillermo Sáenz": "g42v@me.com"
+  },
+  "source": {
+    "git": "https://github.com/942v/VisaNetPeruSecurity.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "default_subspecs": "Core",
+  "subspecs": [
+    {
+      "name": "Core",
+      "vendored_frameworks": [
+        "VisaNetPeruSecurity/Frameworks/*.framework"
+      ]
+    }
+  ]
+}

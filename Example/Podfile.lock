@@ -1,0 +1,18 @@
+PODS:
+  - VisaNetPeruSecurity (0.1.0):
+    - VisaNetPeruSecurity/Core (= 0.1.0)
+  - VisaNetPeruSecurity/Core (0.1.0)
+
+DEPENDENCIES:
+  - VisaNetPeruSecurity (from `../`)
+
+EXTERNAL SOURCES:
+  VisaNetPeruSecurity:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VisaNetPeruSecurity: d383da52badb553d69cc8d171cd0e826e11f8e94
+
+PODFILE CHECKSUM: 857fae97adea44191c046a8bb327f81119993be2
+
+COCOAPODS: 1.9.3
