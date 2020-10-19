@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core'
 
   s.subspec 'Core' do |ss|
+      ss.dependency 'VisaNetSDKiOS'
       ss.vendored_frameworks = [ 'VisaNetPeruSecurity/Frameworks/*.framework' ]
   end
 end
